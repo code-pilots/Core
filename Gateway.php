@@ -87,7 +87,6 @@ class Gateway implements GatewayInterface
      */
     public function execute($request, $catchReply = false)
     {
-        /*test*/
         $context = new Context($this, $request, $this->stack);
 
         array_push($this->stack, $context);
