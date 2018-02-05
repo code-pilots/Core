@@ -41,7 +41,7 @@
     "require-dev": {
         "ext-curl": "*",
         "ext-pdo_sqlite": "*",
-        "payum/omnipay-bridge": "^1",
+        "payum/omnipay-bridge": "dev-1.2.6-BETA1",
         "omnipay/dummy": "~2.0",
         "doctrine/orm": "2.*",
         "phpunit/phpunit": "~4.0",
@@ -80,6 +80,12 @@
         "monolog/monolog": "~1.0 If you want to use PSR-3 logger",
         "defuse/php-encryption": "^2 If you want to encrypt gateways credentials in database"
     },
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/code-pilots/OmnipayBridge"
+        }
+    ],
     "config": {
         "bin-dir": "bin"
     },
